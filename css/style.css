@@ -88,6 +88,7 @@ img {
 	max-width: 100%;
 }
 
+
 input:focus,
 select:focus,
 button:focus,
@@ -376,28 +377,35 @@ ol {
 	position: absolute;
 	left: 0;
 	top: 82px;
-	width: 150px;
+	min-width: 150px;
 	background: #ffffff;
 	text-align: left;
-	padding: 5px 0;
 	z-index: 9;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	/* padding: 5px 0; */
 }
 
 .header__menu ul li .dropdown li {
 	display: block;
 	margin-right: 0;
+	/* margin: 0 0; */
 }
 
 .header__menu ul li .dropdown li a {
 	font-size: 14px;
 	color: #111111;
 	font-weight: 500;
-	padding: 5px 20px;
+	/* padding: 5px 20px; */
+	line-height: 8px;
+	
+}
+.header__menu ul li .dropdown li a:hover{
+	background-color: #e53637;
+	color: #fff;
 }
 
 .header__menu ul li a {
@@ -518,6 +526,9 @@ ol {
 	border-radius: 4px 0 0 4px;
 	margin-right: 1px;
 }
+.hero__text a span:hover{
+	opacity: 0.8;
+}
 
 .hero__text a i {
 	font-size: 20px;
@@ -526,6 +537,9 @@ ol {
 	padding: 11px 5px 16px 8px;
 	color: #ffffff;
 	border-radius: 0 4px 4px 0;
+}
+.hero__text a i:hover{
+	opacity: 0.8;
 }
 
 .hero__slider.owl-carousel .owl-item.active .hero__text .label {
@@ -656,6 +670,10 @@ ol {
 	position: relative;
 	border-radius: 5px;
 }
+.product__item__pic:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
 
 .product__item__pic .ep {
 	font-size: 13px;
@@ -771,6 +789,10 @@ ol {
 	position: relative;
 	border-radius: 5px;
 	margin-bottom: 20px;
+}
+.product__sidebar__view__item:hover{
+	opacity: 0.7;
+	cursor: pointer;
 }
 
 .product__sidebar__view__item .ep {
@@ -1096,6 +1118,12 @@ ol {
 	border-radius: 0 4px 4px 0;
 }
 
+.anime__details__btn .follow-btn:hover,
+.anime__details__btn .watch-btn span:hover,
+.anime__details__btn .watch-btn i:hover{
+	opacity: 0.8;
+}
+
 .anime__details__review {
 	margin-bottom: 55px;
 }
@@ -1176,6 +1204,9 @@ ol {
 	border: none;
 	padding: 10px 15px;
 	border-radius: 2px;
+}
+.anime__details__form form button:hover {
+	opacity: 0.8;
 }
 
 /*---------------------
@@ -1956,7 +1987,9 @@ ol {
 	text-align: center;
 	border-radius: 50%;
 }
-
+.page-up a:hover {
+	opacity: 0.8;
+}
 .page-up a span {
 	position: relative;
 	top: 2px;
@@ -1983,6 +2016,9 @@ ol {
 	color: #b7b7b7;
 	display: block;
 	font-weight: 700;
+}
+.footer__nav ul li a:hover{
+	color: #fff;
 }
 
 .footer__copyright__text {
