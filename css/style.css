@@ -107,7 +107,6 @@ ol {
 	padding: 0;
 	margin: 0;
 }
-
 /*---------------------
   Helper CSS
 -----------------------*/
@@ -492,11 +491,12 @@ ol {
 	-webkit-transition: all, 0.4s;
 	-o-transition: all, 0.4s;
 	transition: all, 0.4s;
+	text-shadow: 0 0 5px black;
 }
 
 .hero__text p {
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 40px;
 	position: relative;
 	top: -100px;
@@ -504,6 +504,7 @@ ol {
 	-webkit-transition: all, 0.6s;
 	-o-transition: all, 0.6s;
 	transition: all, 0.6s;
+	text-shadow: 0 0 5px black;
 }
 
 .hero__text a {
@@ -2061,6 +2062,9 @@ ol {
 	.hero {
 		overflow: hidden;
 	}
+	.set-bg {
+		max-width: 930px;
+	}
 	.login__form {
 		position: relative;
 		padding-left: 32px;
@@ -2078,6 +2082,9 @@ ol {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.hero {
 		overflow: hidden;
+	}
+	.set-bg {
+		max-width: 690px;
 	}
 	.header {
 		position: relative;
@@ -2183,6 +2190,9 @@ ol {
 @media only screen and (max-width: 767px) {
 	.hero {
 		overflow: hidden;
+	}
+	.set-bg {
+		max-width: 510px;
 	}
 	.header {
 		position: relative;
@@ -2324,6 +2334,9 @@ ol {
 @media only screen and (max-width: 479px) {
 	.hero__slider.owl-carousel .owl-nav {
 		display: none;
+	}
+	.set-bg {
+		max-width: 448px;
 	}
 	.hero__items {
 		padding: 250px 0 42px 15px;

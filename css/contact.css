@@ -183,7 +183,7 @@ hr {
 }
 
 /* Begin Media Queries*/
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 991px) {
     .contact-wrapper {
         display: flex;
         flex-direction: column;
