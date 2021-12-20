@@ -2123,6 +2123,13 @@ body{
 	.set-bg {
 		max-width: 100%;
 	}
+	.header__right .search-switch {
+		position: absolute;
+		right: 10px;
+	}
+	.header__right .login-index {
+		position: absolute;
+	}
 	.login__form {
 		position: relative;
 		padding-left: 32px;

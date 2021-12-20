@@ -66,7 +66,7 @@
             var head  = document.getElementsByTagName('head')[0];
             var link = document.createElement("link");
             link.rel = 'stylesheet';
-            link.href = 'css/dark-style.css';
+            link.href = 'css/light-style.css';
             link.type = 'text/css';
             if (head.lastChild.href != link.href) {
                 head.appendChild(link);

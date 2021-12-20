@@ -38,19 +38,21 @@
 
 /* Left contact page */
 .form-horizontal {
-    /*float: left;*/
     max-width: 400px;
     font-family: 'Lato';
     font-weight: 400;
 }
 
-.form-control,
-textarea {
+.form-control {
     max-width: 400px;
     background-color: rgb(255, 251, 251);
     color: #fff;
     letter-spacing: 1px;
     transition: var(--transition-effect);
+}
+.form-group {
+    width: 450px;
+    margin-left: -15px;
 }
 
 .send-button {
@@ -187,15 +189,6 @@ textarea {
 .social-media-list li:hover a {
     color: #000;
 }
-
-.copyright {
-    font: 200 14px 'Oswald', sans-serif;
-    color: #555;
-    letter-spacing: 1px;
-    text-align: center;
-    transition: var(--transition-effect);
-}
-
 hr {
     border-color: rgba(255, 255, 255, .6);
     transition: var(--transition-effect);
