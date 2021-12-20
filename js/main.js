@@ -57,7 +57,23 @@
         prependTo: '#mobile-menu-wrap',
         allowParentLinks: true
     });
-
+    /*------------------
+		Dark/Light Changer
+	--------------------*/
+    var checkbox_toggle = document.getElementById('light-dark');
+        checkbox_toggle.addEventListener('change', function(){
+            document.body.classList.toggle('light');
+            var head  = document.getElementsByTagName('head')[0];
+            var link = document.createElement("link");
+            link.rel = 'stylesheet';
+            link.href = 'css/dark-style.css';
+            link.type = 'text/css';
+            if (head.lastChild.href != link.href) {
+                head.appendChild(link);
+            } else {
+                head.removeChild(head.lastChild);
+            }
+        });
     /*------------------
 		Hero Slider
 	--------------------*/

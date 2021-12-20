@@ -7,6 +7,14 @@
     padding-bottom: 50px;
 }
 
+:root{
+	--transition-effect: 0.25s cubic-bezier(.25,-0.59,.82,1.66) .3s;
+}
+
+.direct-contact-container ul li i span a{
+    transition: var(--transition-effect);
+}
+
 .section-header {
     text-align: center;
     margin: 0 auto;
@@ -15,6 +23,7 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 6px;
+    transition: var(--transition-effect);
 }
 
 .contact-wrapper {
@@ -24,6 +33,7 @@
     margin: 0 auto;
     position: relative;
     max-width: 840px;
+
 }
 
 /* Left contact page */
@@ -40,6 +50,7 @@ textarea {
     background-color: rgb(255, 251, 251);
     color: #fff;
     letter-spacing: 1px;
+    transition: var(--transition-effect);
 }
 
 .send-button {
@@ -83,12 +94,14 @@ textarea {
 .list-item {
     line-height: 3;
     color: #aaa;
+    transition: var(--transition-effect);
 }
 
 .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
     color: #bbb;
+    transition: var(--transition-effect);
 }
 
 .place {
@@ -127,6 +140,7 @@ textarea {
 
 .social-media-list li a {
     color: #fff;
+    transition: var(--transition-effect);
 }
 
 .social-media-list li {
@@ -141,6 +155,7 @@ textarea {
     background-color: rgb(27, 27, 27);
     cursor: pointer;
     transition: all .2s ease-in-out;
+    transition: var(--transition-effect);
 }
 
 .social-media-list li:after {
@@ -155,10 +170,12 @@ textarea {
     opacity: 0;
     box-shadow: 0 0 0 1px #fff;
     transition: all .2s ease-in-out;
+    transition: var(--transition-effect);
 }
 
 .social-media-list li:hover {
     background-color: #fff;
+    transition: var(--transition-effect);
 }
 
 .social-media-list li:hover:after {
@@ -176,10 +193,12 @@ textarea {
     color: #555;
     letter-spacing: 1px;
     text-align: center;
+    transition: var(--transition-effect);
 }
 
 hr {
     border-color: rgba(255, 255, 255, .6);
+    transition: var(--transition-effect);
 }
 
 /* Begin Media Queries*/
