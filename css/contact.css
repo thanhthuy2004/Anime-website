@@ -8,7 +8,7 @@
 }
 
 :root{
-	--transition-effect: 0.25s cubic-bezier(.25,-0.59,.82,1.66) .3s;
+	--transition-effect: 0.17s cubic-bezier(.25,-0.59,.82,1.66) .18s;
 }
 
 .direct-contact-container ul li i span a{
@@ -234,13 +234,10 @@ hr {
     .set-bg {
 		max-width: 100%;
 	}
-
     .form-control,
     textarea {
         margin: 0;
     }
-
-
     .name,
     .email,
     textarea {

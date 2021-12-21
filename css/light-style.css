@@ -112,10 +112,7 @@ ol {
   Dark/Light background
 -----------------------*/
 :root{
-	--transition-effect: 0.25s cubic-bezier(.25,-0.59,.82,1.66) .3s;
-}
-body{
-	transition: var(--transition-effect);
+	--transition-effect: 0.17s cubic-bezier(.25,-0.59,.82,1.66) .18s;
 }
 .switch-toggle{
 	width: 50px;
@@ -368,6 +365,7 @@ body{
 .header {
 	background: #b5b5b6;
     transition: var(--transition-effect);
+	height: 63px;
 }
 
 .header__logo {
@@ -456,7 +454,6 @@ body{
 	-o-transition: all, 0.5s;
 	transition: all, 0.5s;
 	padding: 20px;
-	transition: var(--transition-effect);
 }
 
 .header__menu ul li a span {
@@ -693,7 +690,7 @@ body{
 }
 .btn__all a {
     color: #000;
-    transition: var(--transition-effect);
+	transition: var(--transition-effect);
 }
 .btn__all a:hover {
     opacity: 0.8;
