@@ -231,11 +231,13 @@ hr {
         float: none;
         margin: 0 auto;
     }
+    .set-bg {
+		max-width: 100%;
+	}
 
     .form-control,
     textarea {
-
-        margin: 0 auto;
+        margin: 0;
     }
 
 
@@ -272,4 +274,7 @@ hr {
     .send-button {
         width: 99%;
     }
+    .set-bg {
+		max-width: 100%;
+	}
 }
