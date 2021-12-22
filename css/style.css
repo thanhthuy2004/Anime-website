@@ -965,6 +965,7 @@ ol {
 	display: inline-block;
 	margin-bottom: 0;
 	margin-right: 16px;
+	transition: var(--transition-effect);
 }
 
 .product__page__title .product__page__filter .nice-select {
@@ -1012,6 +1013,7 @@ ol {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	transition: var(--transition-effect);
 }
 
 .product__pagination a:hover {
@@ -1020,11 +1022,13 @@ ol {
 
 .product__pagination a.current-page {
 	border: 1px solid #ffffff;
+	transition: var(--transition-effect);
 }
 
 .product__pagination a i {
 	color: #b7b7b7;
 	font-size: 15px;
+	transition: var(--transition-effect);
 }
 
 /*---------------------
@@ -1397,6 +1401,7 @@ ol {
 	margin-right: 18px;
 	display: inline-block;
 	position: relative;
+	transition: var(--transition-effect);
 }
 
 .breadcrumb__links a i {
@@ -1416,6 +1421,7 @@ ol {
 	font-size: 15px;
 	color: #b7b7b7;
 	display: inline-block;
+	transition: var(--transition-effect);
 }
 
 /*---------------------
