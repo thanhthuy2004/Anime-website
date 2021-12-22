@@ -1447,12 +1447,14 @@ ol {
 	font-family: "Oswald", sans-serif;
 	font-weight: 700;
 	margin-bottom: 22px;
+	transition: var(--transition-effect);
 }
 
 .normal__breadcrumb__text p {
 	color: #ffffff;
 	font-size: 24px;
 	margin-bottom: 0;
+	transition: var(--transition-effect);
 }
 
 /*---------------------
@@ -1827,6 +1829,10 @@ ol {
 	padding-left: 145px;
 }
 
+.login__form .site-btn:hover{
+	opacity: 0.7;
+}
+
 .login__form:after {
 	position: absolute;
 	right: -14px;
@@ -1835,6 +1841,7 @@ ol {
 	width: 1px;
 	background: rgba(255, 255, 255, 0.2);
 	content: "";
+	transition: var(--transition-effect);
 }
 
 .login__form h3 {
@@ -1842,6 +1849,7 @@ ol {
 	font-weight: 700;
 	font-family: "Oswald", sans-serif;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .login__form form .input__item {
@@ -1910,6 +1918,7 @@ ol {
 	position: absolute;
 	right: 60px;
 	bottom: 12px;
+	transition: var(--transition-effect);
 }
 
 .login__register {
@@ -1921,11 +1930,16 @@ ol {
 	font-weight: 700;
 	font-family: "Oswald", sans-serif;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .login__register .primary-btn {
 	background: #e53637;
 	padding: 12px 42px;
+}
+
+.login__register .primary-btn:hover{
+	opacity: 0.7;
 }
 
 .login__social {
@@ -1944,6 +1958,7 @@ ol {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .login__social__links ul li {
@@ -2004,6 +2019,7 @@ ol {
 	font-size: 15px;
 	color: #ffffff;
 	margin-top: 36px;
+	transition: var(--transition-effect);
 }
 
 .signup .login__form h5 a {
@@ -2021,6 +2037,7 @@ ol {
 	font-weight: 700;
 	font-family: "Oswald", sans-serif;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .signup .login__social__links ul li a {
