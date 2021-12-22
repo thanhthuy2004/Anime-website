@@ -60,19 +60,36 @@
     /*------------------
 		Dark/Light Changer
 	--------------------*/
+
+    var isLight = localStorage.getItem('isLight'); 
+    var head  = document.getElementsByTagName('head')[0];
+    var link = document.createElement("link");
+    link.rel = 'stylesheet';
+    link.href = 'css/light-style.css';
+    link.type = 'text/css';
+    if (isLight=='true'){
+        head.appendChild(link);
+        document.getElementById('light-dark').checked = true;
+    } else {
+        head.removeChild(head.lastChild);
+    }
     var checkbox_toggle = document.getElementById('light-dark');
         checkbox_toggle.addEventListener('change', function(){
             document.body.classList.toggle('light');
             var head  = document.getElementsByTagName('head')[0];
             var link = document.createElement("link");
+            let isLight = false;
             link.rel = 'stylesheet';
             link.href = 'css/light-style.css';
             link.type = 'text/css';
             if (head.lastChild.href != link.href) {
                 head.appendChild(link);
+                isLight = true;
             } else {
                 head.removeChild(head.lastChild);
+                isLight = false;
             }
+            localStorage.setItem('isLight',isLight );
         });
     /*------------------
 		Hero Slider
