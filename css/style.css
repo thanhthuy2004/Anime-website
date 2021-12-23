@@ -122,7 +122,7 @@ ol {
 	width: 50px;
 	height: 24px;
 	appearance: none;
-	background: #83d8ff;
+	background: #a50d0de1;
 	border-radius: 26px;
 	cursor: pointer;
 	box-shadow: inset 0px 0px 16px rgba(0, 0, 0, .3);
@@ -142,7 +142,7 @@ ol {
 
 }
 .switch-toggle:checked{
-	background: #749dd6;
+	background: #bb4747d0;
 }
 .switch-toggle:checked:before{
 	left: 52px;
@@ -1223,7 +1223,7 @@ ol {
 	right: -30px;
 	top: 15px;
 	border-top: 15px solid transparent;
-	border-left: 15px solid #1d1e39;
+	border-left: 15px solid #404040;
 	content: "";
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -1239,7 +1239,7 @@ ol {
 
 .anime__review__item__text {
 	overflow: hidden;
-	background: #1d1e39;
+	background: #404040;
 	padding: 18px 30px 16px 20px;
 	border-radius: 10px;
 	transition: var(--transition-effect);
@@ -1253,13 +1253,13 @@ ol {
 }
 
 .anime__review__item__text h6 span {
-	color: #b7b7b7;
+	color: #dddddd;
 	font-weight: 400;
 	transition: var(--transition-effect);
 }
 
 .anime__review__item__text p {
-	color: #b7b7b7;
+	color: #dddddd;
 	line-height: 23px;
 	margin-bottom: 0;
 	transition: var(--transition-effect);
@@ -2154,7 +2154,11 @@ ol {
 }
 
 .footer__copyright__text a {
-	color: #8B0000;
+	color: #ffffff;
+}
+.footer .col-lg-3 p {
+	color: rgb(255, 255, 255);
+	transition: var(--transition-effect);
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/

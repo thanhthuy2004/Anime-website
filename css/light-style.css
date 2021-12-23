@@ -118,7 +118,7 @@ ol {
 	width: 50px;
 	height: 24px;
 	appearance: none;
-	background: #83d8ff;
+	background: #a50d0de1;
 	border-radius: 26px;
 	cursor: pointer;
 	box-shadow: inset 0px 0px 16px rgba(0, 0, 0, .3);
@@ -138,7 +138,7 @@ ol {
 
 }
 .switch-toggle:checked{
-	background: #749dd6;
+	background: #bb4747d0;
 }
 .switch-toggle:checked:before{
 	left: 52px;
@@ -2211,7 +2211,11 @@ hr {
 }
 
 .footer__copyright__text a {
-	color: #8B0000;
+	color: #ffffff;
+}
+.footer .col-lg-3 p {
+	color: #000;
+	transition: var(--transition-effect);
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
