@@ -943,9 +943,10 @@ ol {
 }
 
 .product__page__title {
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 	padding-bottom: 10px;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .product__page__title .section-title {
@@ -1044,9 +1045,10 @@ ol {
 }
 
 .anime__details__text p {
-	color: #b7b7b7;
+	color: #363636;
 	font-size: 18px;
 	line-height: 30px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__pic {
@@ -1084,15 +1086,17 @@ ol {
 }
 
 .anime__details__title h3 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 13px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__title span {
 	font-size: 15px;
-	color: #b7b7b7;
+	color: #3d3d3d;
 	display: block;
+	transition: var(--transition-effect);
 }
 
 .anime__details__rating {
@@ -1111,7 +1115,8 @@ ol {
 .anime__details__rating span {
 	display: block;
 	font-size: 18px;
-	color: #b7b7b7;
+	color: #3d3d3d;
+	transition: var(--transition-effect);
 }
 
 .anime__details__widget {
@@ -1125,10 +1130,11 @@ ol {
 .anime__details__widget ul li {
 	list-style: none;
 	font-size: 15px;
-	color: #ffffff;
+	color: #000000;
 	line-height: 30px;
 	position: relative;
 	padding-left: 18px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__widget ul li:before {
@@ -1142,9 +1148,10 @@ ol {
 }
 
 .anime__details__widget ul li span {
-	color: #b7b7b7;
+	color: #3d3d3d;
 	width: 115px;
 	display: inline-block;
+	transition: var(--transition-effect);
 }
 
 .anime__details__btn .follow-btn {
@@ -1208,11 +1215,12 @@ ol {
 	right: -30px;
 	top: 15px;
 	border-top: 15px solid transparent;
-	border-left: 15px solid #1d1e39;
+	border-left: 15px solid #bebebe;
 	content: "";
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__pic img {
@@ -1223,32 +1231,36 @@ ol {
 
 .anime__review__item__text {
 	overflow: hidden;
-	background: #1d1e39;
+	background: #bebebe;
 	padding: 18px 30px 16px 20px;
 	border-radius: 10px;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text h6 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text h6 span {
-	color: #b7b7b7;
+	color: #3b3b3b;
 	font-weight: 400;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text p {
-	color: #b7b7b7;
+	color: #3b3b3b;
 	line-height: 23px;
 	margin-bottom: 0;
+	transition: var(--transition-effect);
 }
 
 .anime__details__form form textarea {
 	width: 100%;
 	font-size: 15px;
-	color: #b7b7b7;
+	color: #3d3d3d;
 	padding-left: 20px;
 	padding-top: 12px;
 	height: 110px;
@@ -1256,6 +1268,7 @@ ol {
 	border-radius: 5px;
 	resize: none;
 	margin-bottom: 24px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__form form button {
@@ -1367,8 +1380,8 @@ ol {
 .anime__details__episodes a {
 	display: inline-block;
 	font-size: 15px;
-	color: #ffffff;
-	background: rgba(255, 255, 255, 0.2);
+	color: #000000;
+	background: rgba(0, 0, 0, 0.2);
 	padding: 10px 20px;
 	border-radius: 4px;
 	margin-right: 15px;
@@ -1376,6 +1389,7 @@ ol {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	transition: var(--transition-effect);
 }
 
 .anime__details__episodes a:hover {
@@ -1537,6 +1551,8 @@ hr {
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 10px;
+	filter:contrast(80%);
+	filter:brightness(90%);
 }
 
 .blog__item.small__item {
@@ -1595,24 +1611,27 @@ hr {
 
 .blog__details__title h6 {
 	font-size: 15px;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title h6 span {
-	color: #b7b7b7;
+	color: #3f3f3f;
 	font-weight: 400;
 	text-transform: none;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title h2 {
-	color: #ffffff;
+	color: #000000;
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 60px;
 	margin-bottom: 38px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title .blog__details__social a {
@@ -1671,9 +1690,10 @@ hr {
 }
 
 .blog__details__item__text h4 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 35px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__item__text img {
@@ -1682,10 +1702,11 @@ hr {
 }
 
 .blog__details__item__text p {
-	color: #ffffff;
+	color: #000000;
 	font-size: 17px;
 	line-height: 30px;
 	margin-bottom: 0;
+	transition: var(--transition-effect);
 }
 
 .blog__details__tags {
@@ -1694,16 +1715,17 @@ hr {
 
 .blog__details__tags a {
 	display: inline-block;
-	color: #b7b7b7;
+	color: #3d3d3d;
 	font-size: 12px;
 	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 	border-radius: 2px;
 	margin-right: 6px;
 	padding: 6px 15px;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__tags a:last-child {
@@ -1711,10 +1733,11 @@ hr {
 }
 
 .blog__details__btns {
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 20px 0 15px;
 	margin-bottom: 65px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__btns__item {
@@ -1728,7 +1751,8 @@ hr {
 .blog__details__btns__item h5 a {
 	font-size: 17px;
 	letter-spacing: 2px;
-	color: #ffffff;
+	color: #000000;
+	transition: var(--transition-effect);
 }
 
 .blog__details__btns__item h5 a span {
@@ -1739,14 +1763,16 @@ hr {
 }
 
 .blog__details__comment {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment h4 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 26px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item {
@@ -1769,28 +1795,31 @@ hr {
 
 .blog__details__comment__item__text span {
 	font-size: 14px;
-	color: #b7b7b7;
+	color: #3d3d3d;
 	display: block;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text h5 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text p {
-	color: #b7b7b7;
+	color: #3d3d3d;
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 25px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text a {
 	display: inline-block;
-	color: #ffffff;
-	background: rgba(255, 255, 255, 0.1);
+	color: #000000;
+	background: rgba(0, 0, 0, 0.1);
 	padding: 6px 20px;
 	letter-spacing: 2px;
 	border-radius: 2px;
@@ -1798,6 +1827,7 @@ hr {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text a:hover {
@@ -1809,9 +1839,10 @@ hr {
 }
 
 .blog__details__form h4 {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	margin-bottom: 26px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__form form input {

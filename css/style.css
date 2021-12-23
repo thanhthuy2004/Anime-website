@@ -950,6 +950,7 @@ ol {
 	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 	padding-bottom: 10px;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .product__page__title .section-title {
@@ -1051,6 +1052,7 @@ ol {
 	color: #b7b7b7;
 	font-size: 18px;
 	line-height: 30px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__pic {
@@ -1091,12 +1093,14 @@ ol {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 13px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__title span {
 	font-size: 15px;
 	color: #b7b7b7;
 	display: block;
+	transition: var(--transition-effect);
 }
 
 .anime__details__rating {
@@ -1116,6 +1120,7 @@ ol {
 	display: block;
 	font-size: 18px;
 	color: #b7b7b7;
+	transition: var(--transition-effect);
 }
 
 .anime__details__widget {
@@ -1133,6 +1138,7 @@ ol {
 	line-height: 30px;
 	position: relative;
 	padding-left: 18px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__widget ul li:before {
@@ -1149,6 +1155,7 @@ ol {
 	color: #b7b7b7;
 	width: 115px;
 	display: inline-block;
+	transition: var(--transition-effect);
 }
 
 .anime__details__btn .follow-btn {
@@ -1217,6 +1224,7 @@ ol {
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__pic img {
@@ -1230,23 +1238,27 @@ ol {
 	background: #1d1e39;
 	padding: 18px 30px 16px 20px;
 	border-radius: 10px;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text h6 {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text h6 span {
 	color: #b7b7b7;
 	font-weight: 400;
+	transition: var(--transition-effect);
 }
 
 .anime__review__item__text p {
 	color: #b7b7b7;
 	line-height: 23px;
 	margin-bottom: 0;
+	transition: var(--transition-effect);
 }
 
 .anime__details__form form textarea {
@@ -1260,6 +1272,7 @@ ol {
 	border-radius: 5px;
 	resize: none;
 	margin-bottom: 24px;
+	transition: var(--transition-effect);
 }
 
 .anime__details__form form button {
@@ -1380,6 +1393,7 @@ ol {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	transition: var(--transition-effect);
 }
 
 .anime__details__episodes a:hover {
@@ -1472,6 +1486,8 @@ ol {
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 10px;
+	filter:contrast(80%);
+	filter:brightness(90%);
 }
 
 .blog__item.small__item {
@@ -1534,12 +1550,14 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title h6 span {
 	color: #b7b7b7;
 	font-weight: 400;
 	text-transform: none;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title h2 {
@@ -1548,6 +1566,7 @@ ol {
 	font-weight: 700;
 	line-height: 60px;
 	margin-bottom: 38px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__title .blog__details__social a {
@@ -1609,6 +1628,7 @@ ol {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 35px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__item__text img {
@@ -1621,6 +1641,7 @@ ol {
 	font-size: 17px;
 	line-height: 30px;
 	margin-bottom: 0;
+	transition: var(--transition-effect);
 }
 
 .blog__details__tags {
@@ -1639,6 +1660,7 @@ ol {
 	margin-right: 6px;
 	padding: 6px 15px;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__tags a:last-child {
@@ -1650,6 +1672,7 @@ ol {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	padding: 20px 0 15px;
 	margin-bottom: 65px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__btns__item {
@@ -1664,6 +1687,7 @@ ol {
 	font-size: 17px;
 	letter-spacing: 2px;
 	color: #ffffff;
+	transition: var(--transition-effect);
 }
 
 .blog__details__btns__item h5 a span {
@@ -1676,12 +1700,14 @@ ol {
 .blog__details__comment {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	padding-bottom: 30px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment h4 {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 26px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item {
@@ -1707,12 +1733,14 @@ ol {
 	color: #b7b7b7;
 	display: block;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text h5 {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 10px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text p {
@@ -1720,6 +1748,7 @@ ol {
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 25px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text a {
@@ -1733,6 +1762,7 @@ ol {
 	-webkit-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+	transition: var(--transition-effect);
 }
 
 .blog__details__comment__item__text a:hover {
@@ -1747,6 +1777,7 @@ ol {
 	color: #ffffff;
 	font-weight: 700;
 	margin-bottom: 26px;
+	transition: var(--transition-effect);
 }
 
 .blog__details__form form input {
