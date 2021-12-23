@@ -1452,20 +1452,18 @@ ol {
 }
 
 .normal__breadcrumb__text h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 48px;
 	font-family: "Oswald", sans-serif;
 	font-weight: 700;
 	margin-bottom: 22px;
-	text-shadow: -1px 0 rgba(255, 255, 255, 0.541), 0 1px rgba(255, 255, 255, 0.541), 1px 0 rgba(255, 255, 255, 0.541), 0 -1px rgba(255, 255, 255, 0.541);
 	transition: var(--transition-effect);
 }
 
 .normal__breadcrumb__text p {
-	color: #000000;
+	color: #ffffff;
 	font-size: 24px;
 	margin-bottom: 0;
-	text-shadow: -1px 0 rgba(255, 255, 255, 0.541), 0 1px rgba(255, 255, 255, 0.541), 1px 0 rgba(255, 255, 255, 0.541), 0 -1px rgba(255, 255, 255, 0.541);
 	transition: var(--transition-effect);
 }
 /*---------------------
