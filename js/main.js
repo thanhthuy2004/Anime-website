@@ -132,3 +132,40 @@
     });
 
 })(jQuery);
+
+/////////////////////////////////////////// Admin JS /////////////////////////////////////////////////////
+
+document.getElementById("loginBtn").onclick = function(){
+    var myEmail = document.getElementById("email").value;
+    var myPass = document.getElementById("pass").value;
+    var linkToAdmin = document.getElementById("loginNow");
+    var listEmail = new Array("nhom11@gmail.com", "nhom11hci@gmail.com");
+    var listPass = new Array("1234567890", "nhom11");
+ 
+   var checkU = false;
+   var indexU = 0;
+    for(var i=0; i<listEmail.length; i++){
+        if(myEmail==listEmail[i]){
+            checkU = true;
+            indexU = i;
+            break;
+        }else{
+            checkU = false;
+        }
+    }
+    if(checkU === true){
+        if(myPass==listPass[indexU]){
+            alert("Login Thành công")
+            linkToAdmin.innerHTML = '<a href="./admin/index.html" id="loginBtn" type="submit" class="site-btn"> Go To Admin </a> ';
+            
+        }else{
+            alert("Password không chính xác")
+            alert("Nhập lại password")
+            
+        }
+        
+    }else{
+        alert("User không hợp lệ, vui lòng nhập lại user name")
+    }
+ 
+}
